@@ -18,7 +18,7 @@ const today = Date.now();
 const app = express() ;
 
 const limiter = rateLimit({
-	windowMs: 1 * 60 * 1000, 
+	windowMs: 1 * 1 * 1000, 
 	max: 3, 
 	standardHeaders: true, 
 	legacyHeaders: true, 
