@@ -1,8 +1,17 @@
 const express = require('express') ;
 const rateLimit = require("express-rate-limit") ;
 
-const hostname = 'localhost';
-const port = 3000;
+let hostname = process.env.HOSTNAME;
+
+if (hostname == null || hostname == "") {
+    hostname = 'localhost';
+}
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 3000;
+}
+
 const min_time = 0 ;
 const today = Date.now();
 

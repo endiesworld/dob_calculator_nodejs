@@ -1,6 +1,7 @@
 # Backend Assessment
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/df4e0cecced847448858657d21f3a7aa)](https://www.codacy.com/gh/endiesworld/dob_calculator_nodejs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=endiesworld/dob_calculator_nodejs&amp;utm_campaign=Badge_Grade)
+
 Build and deploy a very simple API that does the following
 
 1. Calculate and return the age of a person, given their date of birth (dob) as query parameters to `GET /howold`
